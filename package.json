@@ -1,7 +1,7 @@
 {
   "name": "localcast-cli",
   "description": "CLI for localcast",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "bin": {
     "cast": "./index.js"
