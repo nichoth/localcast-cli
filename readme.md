@@ -1,6 +1,6 @@
 # localcast cli
 
-CLI for `localcast`
+CLI for [localcast](https://github.com/mafintosh/localcast), an event emitter that works across processes.
 
 ## install
 
@@ -8,6 +8,12 @@ CLI for `localcast`
 
 ## example
 
+In one terminal:
     $ cast 
-    $ echo "hello" | cast
+
+In another terminal:
+
+    $ echo "hello" | cast -
+
+And terminal 1 will log "hello".
 
