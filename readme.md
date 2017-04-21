@@ -16,5 +16,24 @@ In another terminal:
 
     $ echo "hello" | cast -
 
-And terminal 1 will log "hello".
+And terminal one will log "hello".
 
+
+## use
+
+```
+    Listen to messages
+
+    Usage
+        $ cast
+
+    Options
+        -                broadcast data from stdin
+        -n, --namespace  start localcast with a namespace
+
+    Examples
+        $ cast  # log localcast messages to stdout
+        $ echo "data" | cast -  # broadcast 'data'
+        $ cast -n foo  # listen for events in foo namespace
+`
+```
