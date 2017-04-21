@@ -9,6 +9,7 @@ CLI for [localcast](https://github.com/mafintosh/localcast), an event emitter th
 ## example
 
 In one terminal:
+
     $ cast 
 
 In another terminal:
